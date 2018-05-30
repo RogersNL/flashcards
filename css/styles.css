@@ -1,0 +1,6 @@
+.Flashcard {
+  border: solid black;
+}
+[class*="Definition"] {
+  display: none;
+}

@@ -3,18 +3,63 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Flashcards</title>
   </head>
   <body>
     <div class="container">
-      <h1>What's your favorite color?</h1>
-      <p>Click a button to choose what color you'd like this page to be:</p>
-
-      <button class="btn btn-success" id="green">Green</button>
-      <button class="btn btn-warning" id="yellow">Yellow</button>
-      <button class="btn btn-danger" id="red">Red</button>
+      <h1>What's your favorite flashcard?</h1>
+      <!-- Word 1 -->
+      <div  id="JS" class="Flashcard">
+        <div class="JSWord">
+          <h2>JavaScript</h2>
+        </div>
+        <div class="JSDefinition">
+          <p><strong>JavaScript</strong> is a programming language used to make web pages interactive.</p>
+        </div>
+      </div>
+      <!-- Word 2 -->
+      <div  id="Operators" class="Flashcard">
+        <div class="OperatorsWord">
+          <h2>Operators</h2>
+        </div>
+        <div class="OperatorsDefinition">
+          <p><strong>Assignment operator:</strong> Changes the value of the variable on the left of the operator.</p>
+          <p><strong>Comparison operator:</strong> Does not change any values, but returns a boolean (true or false) depending on whether the statement evaluates as true or false.</p>
+        </div>
+      </div>
+      <!-- Word 3 -->
+      <div  id="Variables" class="Flashcard">
+        <div class="VariablesWord">
+          <h2>Variables</h2>
+        </div>
+        <div class="VariablesDefinition">
+          <p><strong>Variables</strong> can be thought of as containers used to store information. They allow for a way to label data with a descriptive name.</p>
+        </div>
+      </div>
+      <!-- Word 4 -->
+      <div  id="Variable-naming-conventions" class="Flashcard">
+        <div class="Variable-naming-conventionsWord">
+          <h2>Variable Naming Convention</h2>
+        </div>
+        <div class="Variable-naming-conventionsDefinition">
+          <p><strong>Lower camel case:</strong> Use lowerCamelCase when naming JavaScript variables. Start with a lowercase letter, and if the variable name is more than one word, remove all spaces and capitalize the first letter of each subsequent word.</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
+
+<!--
+
+<div  id="**" class="Flashcard">
+  <div class="**Word">
+    <h2>**</h2>
+  </div>
+  <div class="**Definition">
+    <p>**</p>
+  </div>
+</div>
+
+-->
