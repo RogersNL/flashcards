@@ -1,5 +1,13 @@
 .Flashcard {
   border: solid black;
+  border-spacing: 15px;
+  text-align: center;
+  padding-top:5%;
+  height:100%;
+}
+.row {
+  height: 200px;
+  margin:1%;
 }
 [class*="Definition"] {
   display: none;
